@@ -1,0 +1,386 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SecondFragment">
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="411dp"
+        android:layout_height="701dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/Step1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="101dp"
+                android:layout_marginTop="4dp"
+                android:layout_marginEnd="101dp"
+                android:layout_marginBottom="0dp"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="Step 1: create a new project" />
+
+            <EditText
+                android:id="@+id/Step2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="101dp"
+                android:layout_marginTop="4dp"
+                android:layout_marginEnd="101dp"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="Step 2: click add a file" />
+
+            <EditText
+                android:id="@+id/Step3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="101dp"
+                android:layout_marginTop="4dp"
+                android:layout_marginEnd="101dp"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="Step 3: add more files" />
+
+            <EditText
+                android:id="@+id/Step4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="101dp"
+                android:layout_marginTop="4dp"
+                android:layout_marginEnd="101dp"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="Step 4: arrange files" />
+
+            <EditText
+                android:id="@+id/Step5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="101dp"
+                android:layout_marginTop="4dp"
+                android:layout_marginEnd="101dp"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="Step 5: this is step 5" />
+
+            <EditText
+                android:id="@+id/Step6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="101dp"
+                android:layout_marginTop="4dp"
+                android:layout_marginEnd="101dp"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="Step 6: here is another step" />
+
+            <EditText
+                android:id="@+id/Step7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="101dp"
+                android:layout_marginTop="4dp"
+                android:layout_marginEnd="101dp"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="Step 7: here is the next step in the process" />
+
+            <EditText
+                android:id="@+id/Step8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="101dp"
+                android:layout_marginTop="4dp"
+                android:layout_marginEnd="101dp"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="Step 8:Lorem ipsum" />
+
+            <EditText
+                android:id="@+id/Step9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="101dp"
+                android:layout_marginTop="4dp"
+                android:layout_marginEnd="101dp"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="Step 9: here is some more filler text" />
+
+            <EditText
+                android:id="@+id/Step10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="101dp"
+                android:layout_marginTop="4dp"
+                android:layout_marginEnd="101dp"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="Step 10: This is the tenth step in the process" />
+
+            <EditText
+                android:id="@+id/Step11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="101dp"
+                android:layout_marginTop="4dp"
+                android:layout_marginEnd="101dp"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="Step 11: heres more filler text" />
+
+            <EditText
+                android:id="@+id/Step12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="101dp"
+                android:layout_marginTop="3dp"
+                android:layout_marginEnd="101dp"
+                android:layout_marginBottom="4dp"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="Step 12: this is more filler that is just text" />
+
+            <EditText
+                android:id="@+id/Step13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="101dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginEnd="101dp"
+                android:layout_marginBottom="4dp"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="Step 13" />
+
+            <EditText
+                android:id="@+id/Step14"
+                android:layout_width="wrap_content"
+                android:layout_height="41dp"
+                android:layout_marginStart="101dp"
+                android:layout_marginTop="4dp"
+                android:layout_marginEnd="101dp"
+                android:layout_marginBottom="4dp"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="Step 14:" />
+
+            <EditText
+                android:id="@+id/Step15"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="101dp"
+                android:layout_marginTop="4dp"
+                android:layout_marginEnd="101dp"
+                android:layout_marginBottom="4dp"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="Step 15:" />
+
+            <EditText
+                android:id="@+id/Step16"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="101dp"
+                android:layout_marginTop="4dp"
+                android:layout_marginEnd="101dp"
+                android:layout_marginBottom="4dp"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="Step 16:" />
+
+            <EditText
+                android:id="@+id/Step17"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="101dp"
+                android:layout_marginTop="4dp"
+                android:layout_marginEnd="101dp"
+                android:layout_marginBottom="4dp"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="Step 17:" />
+
+            <EditText
+                android:id="@+id/Step18"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="101dp"
+                android:layout_marginTop="4dp"
+                android:layout_marginEnd="101dp"
+                android:layout_marginBottom="4dp"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="Step 18:" />
+
+            <EditText
+                android:id="@+id/Step19"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="101dp"
+                android:layout_marginTop="4dp"
+                android:layout_marginEnd="101dp"
+                android:layout_marginBottom="4dp"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="Step 19:" />
+
+            <EditText
+                android:id="@+id/Step20"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="101dp"
+                android:layout_marginTop="4dp"
+                android:layout_marginEnd="101dp"
+                android:layout_marginBottom="4dp"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="Step 19:" />
+
+            <EditText
+                android:id="@+id/step21"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="101dp"
+                android:layout_marginTop="4dp"
+                android:layout_marginEnd="101dp"
+                android:layout_marginBottom="4dp"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="Step 21:" />
+
+            <EditText
+                android:id="@+id/step2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="101dp"
+                android:layout_marginTop="4dp"
+                android:layout_marginEnd="101dp"
+                android:layout_marginBottom="4dp"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="Step 22:" />
+
+            <EditText
+                android:id="@+id/step3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="101dp"
+                android:layout_marginTop="4dp"
+                android:layout_marginEnd="101dp"
+                android:layout_marginBottom="4dp"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="Step 23:" />
+
+            <EditText
+                android:id="@+id/step4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="101dp"
+                android:layout_marginTop="4dp"
+                android:layout_marginEnd="101dp"
+                android:layout_marginBottom="4dp"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="Step 24:" />
+
+            <EditText
+                android:id="@+id/step5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="101dp"
+                android:layout_marginTop="4dp"
+                android:layout_marginEnd="101dp"
+                android:layout_marginBottom="4dp"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="Step 25:" />
+
+            <EditText
+                android:id="@+id/step6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="101dp"
+                android:layout_marginTop="4dp"
+                android:layout_marginEnd="101dp"
+                android:layout_marginBottom="4dp"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="Step 26:" />
+
+            <EditText
+                android:id="@+id/step7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="101dp"
+                android:layout_marginTop="4dp"
+                android:layout_marginEnd="101dp"
+                android:layout_marginBottom="4dp"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="Step 27:" />
+
+            <EditText
+                android:id="@+id/step8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="101dp"
+                android:layout_marginTop="4dp"
+                android:layout_marginEnd="101dp"
+                android:layout_marginBottom="4dp"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="Step 28:" />
+
+            <EditText
+                android:id="@+id/step9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="101dp"
+                android:layout_marginTop="4dp"
+                android:layout_marginEnd="101dp"
+                android:layout_marginBottom="4dp"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="Step 29:" />
+
+            <EditText
+                android:id="@+id/step10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="101dp"
+                android:layout_marginTop="4dp"
+                android:layout_marginEnd="101dp"
+                android:layout_marginBottom="4dp"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="Step 30: Project created" />
+        </LinearLayout>
+    </ScrollView>
+
+    <Button
+        android:id="@+id/button_second"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/previous"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:visibility="gone" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
